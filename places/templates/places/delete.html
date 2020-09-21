@@ -1,0 +1,8 @@
+<h1>{{ place.name }}</h1>
+
+{% if important_message %}
+<p><strong>{{ important_message }}</strong></p>
+{% endif %}
+
+<p hidden="true" name="id" id="id" value="{{ place.id }}" />
+<p name="name" id="name" value="{{ place.name }}" />
